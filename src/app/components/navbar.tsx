@@ -1,6 +1,5 @@
-import Link from "next/link";
-
-
+import Link from 'next/link';
+import Logout from './logoutForm';
 
 export default function Navbar() {
   return (
@@ -9,6 +8,7 @@ export default function Navbar() {
       <Link href='/premium'>Premium</Link>
       <Link href='/profile'>Profile</Link>
       <Link href='/login'>Login</Link>
+      <Logout />
     </nav>
   );
 }
