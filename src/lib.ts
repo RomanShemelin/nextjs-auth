@@ -4,7 +4,12 @@ export interface SessionDate {
     id?: string
     username?: string
     img?: string
-    isPremium?: string
+    isPremium?: boolean
+    isLoggedIn: boolean
+}
+
+export const defaultSession: SessionDate = {
+    isLoggedIn: false
 }
 
 export const sessionOptions: SessionOptions={
