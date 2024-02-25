@@ -5,6 +5,7 @@ export interface SessionDate {
     username?: string
     img?: string
     isPremium?: boolean
+    isBlocked?: boolean
     isLoggedIn: boolean
 }
 
